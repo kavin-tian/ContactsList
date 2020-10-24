@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="63dp"
+    android:gravity="center_vertical"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="15dp"
+        android:src="@mipmap/ic_chat_head" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:text="胡歌"
+        android:textColor="#333333"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:text="群主"
+        android:textColor="#848589" />
+
+</LinearLayout>
